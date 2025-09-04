@@ -8,7 +8,7 @@ function toggleMode() {
 
   //subistituir a imagem
   if (html.classList.contains("light")) {
-    //se estiver no light mode, adicionar a imagem light
+    //se estiver no light mode, adiciona a imagem light e altera a descrição
     img.setAttribute("src", "./assets/assets/avatar-light.png")
     img.setAttribute("alt", "Foto de Rogério Franco com fundo branco")
   } else {
